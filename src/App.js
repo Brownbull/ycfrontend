@@ -14,15 +14,16 @@ class App extends Component {
   render() {
     return (
       <div id="container">
-        <div id="header"></div>
-        <div id="body"></div>
-        <div id="footer"></div>
-        {/* <Header id="header"/>
-        <div id="body">
-        <Navigation Camps={Camps} />  
-        <CampProfile Camp={Camps[1]} />
+        <div id="header">
+          <Header id="header" />
         </div>
-        <Footer id="footer"/> */}
+        <div id="body">
+          <Navigation Camps={Camps} /> 
+          {/* <CampProfile Camp={Camps[1]} /> */}
+        </div>
+        <div id="footer">
+          <Footer id="footer" /> 
+        </div>
       </div>
     ); // eof return
   } // eof render()
