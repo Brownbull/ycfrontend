@@ -6,7 +6,7 @@ const Navigation = ({ Camps }) => {
     return (
         <nav>
             <div className="container">
-                <header className="jumbotron pt5 pb3">
+                <header className="jumbotron pt4 pb3">
                     <div className="container ">
                         <h1 className="tl pa0 ma0">Welcome to YeldCamp!</h1>
                         <p className="tl pa0 ma2">See some camps over the world here, right here</p>
