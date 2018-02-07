@@ -1,13 +1,11 @@
 import React from 'react';
 import "./CampCard.css"
 
-
-
 const CampCard = ({ key, name, image, price }) => {
     return (
         <section className="col-md-3 col-sm-6 pa2 pa3-ns">
-            <article className="dib bw2 shadow-5 br3 ma3">
-                <img src={`${image}`} alt="Camp" />
+            <article className="dib bw2 shadow-5 br3 ma3 w-100 ">
+                <img src={`${image}/?200x200`} className="db" alt="Camp" />
                 {/* <img src="{`https://robohash.org/?200x200`}" className="" alt="Campground Photo" /> */}
                 <div className="bt b--black-20 pa2">
                     <a className="link f3 fw6 db black hover-blue mb0 pointer" >{`${name}`}</a>

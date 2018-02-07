@@ -1,36 +1,15 @@
 import React from 'react';
-import './Footer';
+import './Footer.css';
 
-var style = {
-    backgroundColor: "#F8F8F8",
-    borderTop: "1px solid #E7E7E7",
-    textAlign: "center",
-    padding: "15px",
-    position: "fixed",
-    left: "0",
-    bottom: "0",
-    height: "60px",
-    width: "100%",
-}
-
-var phantom = {
-    display: 'block',
-    padding: '20px',
-    height: '60px',
-    width: '100%',
-}
-
-const Footer = ({children}) => {
+const Footer = () => {
     return (
-        <div>
-            <div style={phantom} />
-            <div style={style}>
-                {children}
-                <p className="f7 black-70 dib pr3 mb3">
+        <nav className="navbar-bottom foot">
+            <div className="container-fluid ">
+                <p className="f4 black-70 tc mt2">
                     Copyright © UtilOne 2018
                 </p>
             </div>
-        </div>
+        </nav>
     ) // eof return 
 } // eof eof const Footer
 
